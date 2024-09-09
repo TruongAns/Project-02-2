@@ -759,3 +759,22 @@ a {
 .img:hover {
     scale: 1.1;
 }
+
+/* ========================================== cta ========================================== */
+.cta {
+    margin: 65px 0;
+    background: #DEF6F5;
+
+}
+
+.cta__wrap {
+    padding: 76px 0px 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta__btn {
+    position: relative;
+    left: -154px;
+}
