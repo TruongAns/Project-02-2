@@ -429,6 +429,11 @@ a {
     column-gap: 200px;
 }
 
+.feature__icon:hover {
+    opacity: 0.8;
+}
+
+
 .feature__item-title {
     margin-top: 26px;
     color: #0D1111;
@@ -446,4 +451,127 @@ a {
 
 .feature__item:nth-of-type(1) .feature__item-desc {
     width: 168px;
+}
+
+
+/* ========================================== Courses ========================================== */
+.course__wrap {
+    padding: 65px 0;
+}
+
+.course__row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course__desc {
+    max-width: 525px;
+}
+
+.course__link {
+    color: #1EBFC1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+/* course__list */
+
+.course__list {
+    margin-top: 79px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 47px;
+}
+
+.course__item {
+    position: relative;
+}
+
+.course__item:hover .course__item-img {
+    scale: 1.1;
+}
+
+.course__item-img-wrap {
+    width: 100%;
+    height: 393px;
+    border-radius: 8px;
+    opacity: 0.7;
+    background: #D0EFED;
+    overflow: hidden;
+}
+
+.course__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.course__item-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -124px;
+    width: 90%;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course__item-title {
+    color: #0D1111;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.course__item-price {
+    margin-top: 16px;
+    color: #767E7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.course__item-price strong {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.course__item-desc {
+    margin-top: 14px;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.course__item-row {
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.course__item-row span {
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.course__item-desc-wrap {
+    display: flex;
+    column-gap: 7px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1EBFC1;
 }
