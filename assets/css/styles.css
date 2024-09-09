@@ -6,7 +6,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    height: 10000px;
+
 }
 
 * {
@@ -777,4 +777,61 @@ a {
 .cta__btn {
     position: relative;
     left: -154px;
+}
+
+/* ========================================== footer ========================================== */
+
+.footer {
+    padding: 65px 0px 50px;
+}
+
+.footer__wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 70px;
+}
+
+.footer__logo {
+    position: relative;
+    top: -12px;
+}
+
+.footer__heading {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer__list {
+    margin-top: 25px;
+}
+
+.footer__item {}
+
+.footer__item-link {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__item-link:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.footer__item-link span {
+    position: absolute;
+    left: 20px;
+}
+
+.copyright {
+    margin-top: 80px;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
