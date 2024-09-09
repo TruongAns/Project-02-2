@@ -487,7 +487,10 @@ a {
 }
 
 .course__item {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .course__item:hover .course__item-img {
@@ -511,10 +514,8 @@ a {
 }
 
 .course__item-content {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -124px;
+    z-index: 1;
+    margin-top: -71px;
     width: 90%;
     padding: 18px 25px 29px;
     border-radius: 8px;
@@ -574,4 +575,30 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #1EBFC1;
+}
+
+/* ========================================== countdown ========================================== */
+.countdown {
+    margin: 200px 0;
+}
+
+.countdown__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 195px;
+    width: 862px;
+    margin: 0 auto;
+}
+
+.countdown__item-number {
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.countdown__item-desc {
+    margin-top: 11px;
+    text-align: center;
 }
